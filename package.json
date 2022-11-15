@@ -1,0 +1,19 @@
+{
+  "name": "data-reader",
+  "version": "1.0.0",
+  "description": "DataReader provides an easy way to implement data migrations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Data",
+    "migration"
+  ],
+  "author": "Cesar Augusto Batista Santos",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^4.8.4"
+  }
+}
