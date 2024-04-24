@@ -26,21 +26,6 @@ export default class TextFileDataReader implements DataReader {
         return this._parentRowCount;
     }
 
-    // private processRow(row: string): string {
-    //     this._rowCount++;
-    //     const currentRowIsChildRow = this.isChildRow(row);
-    //     if (this.hasHierarchicalRows && currentRowIsChildRow && this.lastRowIsChildRow === false) {
-    //         this._hierarchicalRowCount++;
-    //     }
-    //     this.lastRowIsChildRow = currentRowIsChildRow;
-
-    //     if (!currentRowIsChildRow) {
-
-    //     }
-
-    //     return row;
-    // }
-
     private isChildRow(data: string): boolean {
         const regex = /^[ \t]+\S/;
         return regex.test(data);
